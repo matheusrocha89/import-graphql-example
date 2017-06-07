@@ -1,0 +1,13 @@
+{
+  "verbose": true,
+  "legacyWatch": true,
+  "execMap": {
+    "js": "node",
+    "jsx": "node"
+  },
+  "ext": "js jsx",
+  "watch": ["./src/server", "./src/clients"],
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
